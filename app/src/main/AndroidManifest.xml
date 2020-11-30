@@ -20,6 +20,11 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/label_settings"></activity>
+
+        <service
+            android:name=".MyForegroundService"
+            android:enabled="true"></service>
     </application>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"></uses-permission>
 
 </manifest>
